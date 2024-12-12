@@ -1,0 +1,17 @@
+{
+   "name": "ai-content-generator",
+  "version": "1.0.0",
+  "description": "A Gutenberg block that generates content using AI",
+  "main": "block.js",
+  "dependencies": {
+    "@wordpress/block-editor": "^14.9.0",
+    "@wordpress/blocks": "^14.3.0",
+    "@wordpress/components": "^29.0.0",
+    "@wordpress/i18n": "^5.14.0",
+    "@wordpress/scripts": "^30.7.0",    
+    "scripts": {
+        "build": "wp-scripts build",
+        "start": "wp-scripts start"
+    }
+  }
+}
